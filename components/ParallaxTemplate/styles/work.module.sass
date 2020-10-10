@@ -1,0 +1,34 @@
+$btnback: #f1f1f1
+$btnbackhov: #ccc
+$btncolor: black
+
+.work
+    display: grid
+    grid-template-columns: repeat(4, auto)
+    img
+        width: 100%
+        padding: .5rem
+        cursor: pointer
+        opacity: .6
+        &:hover
+            opacity: 1
+.loadmore
+    margin-top: 4em
+    font-size: 1em
+    background: $btnback
+    &:hover
+        background: $btnbackhov
+.modal
+    display: flex
+    justify-content: center
+    img
+        align-self: center
+        max-width: 75%
+
+@media screen and ( max-width: 650px )
+    .work
+        grid-template-columns: repeat(2, auto)
+
+@media screen and ( max-width: 450px )
+    .work
+        grid-template-columns: auto
