@@ -1,0 +1,29 @@
+.about
+    &_double
+        margin-top: .5em
+        display: grid
+        grid-template-columns: 50% 50%
+        &_split
+            margin: .5em 1em
+        .myname
+            height: 100%
+            display: flex
+            flex-direction: column
+            p
+                margin: 1em
+                font-weight: bolder
+                align-self: center
+                svg
+                    height: 15px
+                    margin-right: 1ch
+            img
+                width: 100%
+                margin: auto
+                opacity: .6
+                &:hover
+                    opacity: 1
+
+@media screen and ( max-width: 1100px )
+    .about
+        &_double
+            grid-template-columns: auto

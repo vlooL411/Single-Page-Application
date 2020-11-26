@@ -1,0 +1,25 @@
+{
+	"name": "@spa/vue",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "nuxt -p 3001",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"generate": "nuxt generate"
+	},
+	"dependencies": {
+		"nuxt": "^2.14.7",
+		"nuxt-property-decorator": "^2.8.8",
+		"sass": "^1.29.0",
+		"sass-loader": "^10.1.0",
+		"@fortawesome/fontawesome-svg-core": "^1.2.32",
+		"@fortawesome/free-brands-svg-icons": "^5.15.1",
+		"@fortawesome/free-solid-svg-icons": "^5.15.1",
+		"@fortawesome/vue-fontawesome": "^2.0.0"
+	},
+	"devDependencies": {
+		"vuex-module-decorators": "^1.0.1",
+		"@nuxt/types": "^2.14.7",
+		"@nuxt/typescript-build": "^2.0.3"
+	}
+}
